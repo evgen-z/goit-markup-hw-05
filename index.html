@@ -456,6 +456,92 @@
         </div>
       </section>
     </main>
+    
+    <div class="modal-overlay">
+      <div class="modal">
+
+        <div class="close-button">
+          <button class="cl-but-link" type="button"><svg class="cl-but-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close">
+            </use>
+          </svg></button>
+        </div>
+
+        <p class="modal-txt">Leave your contacts and we will call you back</p>
+
+        <form 
+        class="modal-form" 
+        name="submit-form" 
+        autocomplete="off" 
+        novalidate>
+
+        <label class="form-label" for="inp-name">
+          Name
+          
+        </label>
+        <div class="form-item">
+          <svg class="form-icon" width="12" height="12">
+            <use href="./images/icons.svg#icon-man"></use>
+          </svg>
+          <input class="form-input" type="text" name="name" id="inp-name">
+        </div>
+        
+
+        <label class="form-label" for="inp-phone">
+          Phone
+          
+        </label>
+        <div class="form-item">
+          <svg class="form-icon" width="12" height="12">
+            <use href="./images/icons.svg#icon-phone"></use>
+          </svg>
+          <input class="form-input" type="tel" name="phone" id="inp-phone">
+        </div>
+        
+
+        <label class="form-label" for="inp-email">
+          Email
+          
+        </label>
+        <div class="form-item">
+          <svg class="form-icon" width="12" height="12">
+            <use href="./images/icons.svg#icon-mail"></use>
+          </svg>
+          <input class="form-input" type="email" name="email" id="inp-email">
+        </div>
+        
+
+        <label class="form-label" for="">
+          Comment
+          <div class="form-comment">
+            <textarea class="form-input" name="comment" id="inp-comment" rows="5" placeholder="Text input"></textarea>
+          </div>
+        </label>
+
+        <div class="privacy-check">
+          <input 
+          class="p-checkbox visually-hidden" 
+          type="checkbox" 
+          name="checkbox" 
+          id="priv-check">
+          <label class="p-label" for="priv-check">
+            <span class="priv-cb">
+              <svg class="priv-cb-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the 
+            <a class="privacy-link" href="">Privacy Policy</a>
+          </label>
+        </div>
+
+        <button type="submit" class="send-button">Send</button>
+
+        </form>
+
+        
+      </div>
+    </div>
 
     <footer class="footer">
       <div class="container">
@@ -503,6 +589,21 @@
               </a>
             </li>
           </ul>
+        </div>
+
+        <div class="ft-form">
+          <form class="ft-form-proper" action="">
+            <label class="ft-form-label" for="ft-form-input">Subscribe</label>
+            <div class="ft-form-item">
+              <input class="ft-form-input" type="email" name="email-subscribe" id="ft-form-input" placeholder="E-mail">
+              <button class="ft-form-bt" type="submit">
+                Subscribe
+                <svg class="ft-form-icon" height="24" width="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
