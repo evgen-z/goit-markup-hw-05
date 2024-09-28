@@ -744,7 +744,6 @@ textarea:focus {
 
 .ft-form-proper {
   display: flex;
-  gap: 24px;
 }
 
 .ft-form-input {
