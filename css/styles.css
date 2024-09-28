@@ -509,6 +509,11 @@ textarea:focus {
 }
 
 .form-item {
+  
+  margin-bottom: 8px;
+}
+
+.input-cont {
   position: relative;
 }
 
@@ -563,7 +568,7 @@ textarea:focus {
   letter-spacing: 0.04em;
 }
 
-.form-comment:focus-within {
+.form-comment:focus {
   border-color: #4d5ae5;
   fill: #4d5ae5;
 }
