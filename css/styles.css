@@ -481,7 +481,6 @@ textarea:focus {
 }
 
 .modal-div {
-  
 }
 
 .modal-txt {
@@ -509,7 +508,6 @@ textarea:focus {
 }
 
 .form-item {
-  
   margin-bottom: 8px;
 }
 
@@ -546,7 +544,7 @@ textarea:focus {
 }
 
 .form-cmt {
-  margin-bottom: 16px
+  margin-bottom: 16px;
 }
 
 .form-comment {
@@ -569,7 +567,7 @@ textarea:focus {
   color: rgba(46, 47, 66, 0.4);
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
 }
 
